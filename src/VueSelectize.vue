@@ -4,6 +4,7 @@
  * Copyright (c)  Michael Owens, contributors.
  * Licensed under the ISC license.
  */
+<script type="text/babel">
 ;(function () {
     var VueSelectize = {};
     var selectize = typeof require === 'function'
@@ -56,7 +57,9 @@
                     })
             },
             update: function (value) {
-                $(this.el).val(value).trigger('change')
+                var el = $(this.el)
+                el[0].selectize.setValue(value)
+                el.trigger('change')
             },
             unbind: function () {
                 $(this.el).off().selectize('destroy')
@@ -89,3 +92,8 @@
     }
 
 })()
+</script>
+
+<style lang="scss">
+  @import '/node_modules/selectize/dist/css/selectize.bootstrap3.css';
+</style>
