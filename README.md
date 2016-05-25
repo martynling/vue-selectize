@@ -44,6 +44,8 @@ After installing the plugin you can use the `v-selectize` directive.
 - `options` is an array of the initial available options
 - `customSettings` is an object with settings that will be passed to selectize. See https://github.com/selectize/selectize.js/blob/master/docs/usage.md#options for available options
 
+You'll also want to load one of selectize's CSS files to style your inputs. You should find what you want in `node_modules/selectize/dist/css`. See http://selectize.github.io/selectize.js/ for more info. 
+
 ## Example 1
 
 ```html

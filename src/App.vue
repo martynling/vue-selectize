@@ -30,8 +30,6 @@
 </template>
 
 <script>
-/* global $ */
-
 export default {
   data: function () {
     return {
@@ -41,7 +39,7 @@ export default {
         {key: 1, value: 'Second'},
         {key: 2, value: 'Third'}
       ],
-      filterValue2: [1,2],
+      filterValue2: [1, 2],
       filterValueOptions2: [
         {key: '0', value: 'First'},
         {key: '1', value: 'Second'},
