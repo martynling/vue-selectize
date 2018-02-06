@@ -6,7 +6,7 @@ A Vue.js directive for selectize.js.
 
 - Vue.js ^`1.0.16`
 - Selectize.js ^`0.12.1` (and its dependencies)
-
+- jQuery ^`3.0.0`
 For vue-selectize compatible with Vue.js v0.*, see [link to earlier version goes here].
 
 # Installation
