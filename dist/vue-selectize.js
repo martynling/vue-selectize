@@ -1,8 +1,8 @@
 /**
- * vue-selectize v1.0.1
+ * vue-selectize v1.0.2
  * 
- * Copyright (c)  Michael Owens, contributors.
- * Licensed under the ISC license.
+ * Copyright (c)  Martyn Ling, contributors.
+ * Licensed under the MIT license.
  */
 ;(function () {
     var VueSelectize = {};
